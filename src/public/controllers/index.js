@@ -89,7 +89,7 @@ $(function () {
                         statusAdvanced()
                         break
                     default:
-                        cout("Incorrect usage. Use server ip/status")
+                        cout("Incorrect usage. Use server ip/status/status-advanced")
                         break
                 }
             },
