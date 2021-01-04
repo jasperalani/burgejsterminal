@@ -1,0 +1,23 @@
+{
+  "name": "burgejsterminal",
+  "version": "1.0.1",
+  "description": "Burgehood Informational Terminal",
+  "main": "terminal.js",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jasperalani/burgejsterminal.git"
+  },
+  "author": "Jasper Alani <jasperalani@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jasperalani/burgejsterminal/issues"
+  },
+  "homepage": "https://github.com/jasperalani/burgejsterminal#readme"
+}
