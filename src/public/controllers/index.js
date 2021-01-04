@@ -43,8 +43,10 @@ $(function () {
 
     function status() {
         getServerStatus().then(status => {
+            console.log(status)
             cout(
-                "Players: " + status.players.online + "/" + status.players.max,
+                "Player Count: " + status.players.online + "/" + status.players.max,
+                "Player List: " + status.players.list.join(", "),
                 "MOTD: " + status.motd.clean,
             )
         })
